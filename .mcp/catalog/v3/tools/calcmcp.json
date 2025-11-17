@@ -1,0 +1,50 @@
+[
+  {
+    "name": "add",
+    "description": "Return the sum of two numbers (a + b).",
+    "arguments": [
+      {
+        "name": "a",
+        "type": "float",
+        "desc": "The first component"
+      },
+      {
+        "name": "b",
+        "type": "float",
+        "desc": "The second component"
+      }
+    ]
+  },
+  {
+    "name": "subtract",
+    "description": "Return the difference of two numbers (a - b).",
+    "arguments": [
+      {
+        "name": "a",
+        "type": "float",
+        "desc": "The first component"
+      },
+      {
+        "name": "b",
+        "type": "float",
+        "desc": "The second component"
+      }
+    ]
+  },
+  {
+    "name": "list_files",
+    "description": "List all files in the given directory path.",
+    "arguments": [
+      {
+        "name": "path",
+        "type": "string",
+        "desc": "The path to list files from"
+      }
+    ]
+  },
+  {
+    "name": "coin_flip",
+    "description": "Flip a coin and return 'heads' or 'tails'.",
+    "arguments": []
+  }
+]

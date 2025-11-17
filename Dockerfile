@@ -17,4 +17,4 @@ RUN pip install --upgrade pip \
 # EXPOSE 8080
 
 # Run the MCP server
-CMD ["python", "-m", "duckduckgo_mcp_server.server"]
+CMD ["python", "-m", "calc_mcp_server.server"]

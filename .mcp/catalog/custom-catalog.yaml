@@ -1,0 +1,30 @@
+version: 3
+name: custom
+displayName: Custom MCP Servers
+registry:
+  calcmcp:
+    description: A Model Context Protocol (MCP) server that provides the ability to add or subtract two numbers.
+    title: Calculator MCP Server
+    type: server
+    dateAdded: "2025-05-05T20:08:35Z"
+    image: calcmcp:latest
+    ref: ""
+    readme: ""
+    toolsUrl: "file:///C:/Users/micha/.docker/mcp/catalogs/tools/calcmcp.json"
+    source: ""
+    upstream: ""
+    icon: https://upload.wikimedia.org/wikipedia/commons/1/1e/Calculator_icon.svg
+    tools:
+      - name: add
+      - name: subtract
+      - name: list_files
+      - name: coin_flip
+    prompts: 0
+    resources: {}
+    metadata:
+      category: productivity
+      tags:
+        - calc
+        - match
+      license: MIT License
+      owner: local

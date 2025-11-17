@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+	"MCP_DOCKER": {
+	  "command": "docker",
+	  "args": [
+		"mcp",
+		"gateway",
+		"run",
+		"--catalog=\"C:\\Users\\micha\\.docker\\mcp\\catalogs\\docker-mcp.yaml\"",
+		"--catalog=\"C:\\Users\\micha\\.docker\\mcp\\catalogs\\custom.yaml\"",
+		"--config=\"C:\\Users\\micha\\.docker\\mcp\\config.json\"",
+		"--registry=\"C:\\Users\\micha\\.docker\\mcp\\registry.yaml\"",
+		"--tools-config=\"C:\\Users\\micha\\.docker\\mcp\\tools-config.json\"",
+		"--transport=stdio"
+	  ],
+	  "env": {
+		"LOCALAPPDATA": "C:\\Users\\micha\\AppData\\Local",
+		"ProgramData": "C:\\ProgramData",
+		"ProgramFiles": "C:\\Program Files"
+	  }
+	}
+  }
+}
