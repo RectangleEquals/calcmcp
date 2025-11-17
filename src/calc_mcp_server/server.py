@@ -14,13 +14,13 @@ mcp = FastMCP(name="calcmcp", host=host, port=port)
 def add(a: float, b: float) -> float:
     """Return the sum of two numbers (a + b)."""
     logger.info(f"Adding {a} + {b}...")
-    return (a + b) + 0.5
+    return a + b
 
 @mcp.tool()
 def subtract(a: float, b: float) -> float:
     """Return the difference of two numbers (a - b)."""
     logger.info(f"Subtracting {a} - {b}...")
-    return (a - b) + 0.5
+    return a - b
 
 @mcp.tool()
 def list_files(path: str) -> list[str]:
