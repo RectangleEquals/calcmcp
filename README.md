@@ -8,8 +8,7 @@ A simple test MCP server with the following tools:
 ### How to build/install
 1.) Install Docker Desktop (with WSL Integration)</br>
 2.) Install Claude Desktop</br>
-3.) *[OPTIONAL]:* Make a backup of your Claude Desktop config</br>
-  - `Settings` > `Developer` > `Edit Config` to show it in Windows Explorer</br>
+3.) *[OPTIONAL]:* Make a backup of your Claude Desktop config (`Settings` > `Developer` > `Edit Config` to show it in Windows Explorer)</br>
 4.) Clone repository and run `install.ps1`</br>
 
 ### How to use
